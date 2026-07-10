@@ -2,27 +2,26 @@
  * C++ Learning Example: Modern C++20 Features
  * 
  * INSTRUCTIONS FOR BEGINNERS:
- * These commands must be run in the TERMINAL (command line).
- * Copy and paste each command, then press Enter.
+ * 1. OPEN the TERMINAL (the black command line window)
+ * 2. COPY the command below (select it, then Ctrl+C)
+ * 3. PASTE it into the terminal (Ctrl+V or right-click and paste)
+ * 4. Press ENTER
+ * 5. Wait for the program to finish
  * 
  * TO COMPILE AND RUN:
- *   Step 1: Compile the program (translates C++ code to executable)
- *     g++ -std=c++20 -o test_cpp test.cpp
- *     Explanation:
- *       g++ = compiler command
- *       -std=c++20 = tells compiler to use C++20 standard
- *       -o test_cpp = name of the output file
- *       test.cpp = source code file to compile
+ *   Method 1: Two separate commands
+ *     FIRST, copy and paste this:
+ *       g++ -std=c++20 -o test_cpp test.cpp
+ *     Press Enter. Wait for it to finish (you won't see output, that's normal).
+ *     
+ *     THEN, copy and paste this:
+ *       ./test_cpp
+ *     Press Enter. You should see: "Hello, C++ World! C++20 features..."
  * 
- *   Step 2: Run the compiled program
- *     ./test_cpp
- *     Explanation:
- *       ./ = look in current directory
- *       test_cpp = name of the program to run
- * 
- *   Quick way (all in one command):
- *     g++ -std=c++20 -o test_cpp test.cpp && ./test_cpp
- *     && = "then do" (run next command only if first succeeds)
+ *   Method 2: All in one command (easier!)
+ *     Copy and paste this entire line into the terminal:
+ *       g++ -std=c++20 -o test_cpp test.cpp && ./test_cpp
+ *     Press Enter. You should see the output appear!
  */
 
 #include <iostream>
