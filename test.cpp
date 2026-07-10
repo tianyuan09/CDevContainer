@@ -1,3 +1,9 @@
+/*
+ * Compile and run:
+ *   g++ -std=c++20 -o test_cpp test.cpp && ./test_cpp
+ *   clang++ -std=c++20 -o test_cpp test.cpp && ./test_cpp
+ */
+
 #include <iostream>
 #include <concepts>
 

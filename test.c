@@ -1,3 +1,9 @@
+/*
+ * Compile and run:
+ *   gcc -std=c17 -o test_c test.c && ./test_c
+ *   clang -std=c17 -o test_c test.c && ./test_c
+ */
+
 #include <stdio.h>
 
 int main(void) {
