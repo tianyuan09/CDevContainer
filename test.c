@@ -1,19 +1,29 @@
 /*
  * C Learning Example: C17 Standard Check
+ * Your First C Program!
  * 
- * This program demonstrates:
- *   - stdio.h: Standard C input/output library
- *   - Preprocessor directives: Code that runs before compilation
- *   - __STDC_VERSION__: Built-in macro that identifies the C standard
+ * INSTRUCTIONS FOR BEGINNERS:
+ * These commands must be run in the TERMINAL (command line).
+ * Copy and paste each command, then press Enter.
  * 
  * TO COMPILE AND RUN:
- *   Step 1: Compile using gcc or clang with C17 standard
+ *   Step 1: Compile the program (translates C code to executable)
  *     gcc -std=c17 -o test_c test.c
+ *     Explanation:
+ *       gcc = compiler command
+ *       -std=c17 = tells compiler to use C17 standard
+ *       -o test_c = name of the output file
+ *       test.c = source code file to compile
+ * 
  *   Step 2: Run the compiled program
  *     ./test_c
- *   
- *   Alternative (one command):
+ *     Explanation:
+ *       ./ = look in current directory
+ *       test_c = name of the program to run
+ * 
+ *   Quick way (all in one command):
  *     gcc -std=c17 -o test_c test.c && ./test_c
+ *     && = "then do" (run next command only if first succeeds)
  */
 
 #include <stdio.h>

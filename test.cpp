@@ -1,19 +1,28 @@
 /*
  * C++ Learning Example: Modern C++20 Features
  * 
- * This program demonstrates key C++20 concepts:
- *   - iostream: For input/output operations
- *   - Concepts: Templates that check type requirements
- *   - Designated initializers: Clear struct member initialization
+ * INSTRUCTIONS FOR BEGINNERS:
+ * These commands must be run in the TERMINAL (command line).
+ * Copy and paste each command, then press Enter.
  * 
  * TO COMPILE AND RUN:
- *   Step 1: Compile using g++ or clang++ with C++20 standard
+ *   Step 1: Compile the program (translates C++ code to executable)
  *     g++ -std=c++20 -o test_cpp test.cpp
+ *     Explanation:
+ *       g++ = compiler command
+ *       -std=c++20 = tells compiler to use C++20 standard
+ *       -o test_cpp = name of the output file
+ *       test.cpp = source code file to compile
+ * 
  *   Step 2: Run the compiled program
  *     ./test_cpp
- *   
- *   Alternative (one command):
+ *     Explanation:
+ *       ./ = look in current directory
+ *       test_cpp = name of the program to run
+ * 
+ *   Quick way (all in one command):
  *     g++ -std=c++20 -o test_cpp test.cpp && ./test_cpp
+ *     && = "then do" (run next command only if first succeeds)
  */
 
 #include <iostream>
